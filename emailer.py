@@ -46,9 +46,10 @@ def email_send(to,file):
 
 while True:
     time.sleep(1)
-    if GPIO.input(PIR) == 0:
+    if GPIO.input(PIR) == 1:
         takepic()
         email_send(email,takepic.file)
+        time.sleep(1)
     else:
         print("Waiting for postie")
         time.sleep(0.1)
