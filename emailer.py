@@ -16,9 +16,9 @@ from datetime import datetime
 from time import sleep
 
 # init email settings
-from_address    = environ["EMAILER_FROM"]
-from_password   = environ["EMAILER_PASS"]
-to_addresses    = environ["EMAILER_TO"]
+##from_address    = environ["EMAILER_FROM"]
+##from_password   = environ["EMAILER_PASS"]
+##to_addresses    = environ["EMAILER_TO"]
 
 def send_email(current_time):
     filename = current_time + '.jpg'
@@ -57,8 +57,8 @@ def go_inactive():
 prev_state = 0
 
 camera = PiCamera()
-pir = MotionSensor(4, queue_len = 1)
-ldr = LightSensor(17, queue_len = 1)
+pir = MotionSensor(17, queue_len = 1)
+ldr = LightSensor(24, queue_len = 1)
 light = LED(25)
 
 try:
