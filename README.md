@@ -3,9 +3,10 @@ First Raspberry Pi hack
 Installed:
 
 * Raspberry Pi Cam
-* PIR motion sensor (using 5v on GPIO4)
-* Light Sensor (on GPIO17)
-* LED (on GPIO25)
+* PIR motion sensor (using 5v on GPIO17)
+* Light Sensor (on GPIO24)
+* LED (on GPIO25) - TODO
+* DTH11 (Temp and Humid sensor) (5v on GPIO7)
 * Sending email through outlook smpt
 
 Next steps:

@@ -1,0 +1,1 @@
+@reboot python3 /home/pi/Projects/LXF-PiHome-PostWatch/emailer.py >/home/pi/logs/cronlog 2>&1

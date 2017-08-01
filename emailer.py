@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 # IO libs
 from gpiozero import MotionSensor, LightSensor, LED
 from picamera import PiCamera
